@@ -43,5 +43,3 @@ int main() {
 
     return 0;
 }
-
-//원본: https://notepad96.tistory.com/41
