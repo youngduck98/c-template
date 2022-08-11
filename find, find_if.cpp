@@ -3,6 +3,7 @@
 #include <iostream>
 using namespace std;
 
+//bool 형이면 아무거나 상관 x
 bool isOdd(int n) {
     return n % 2 == 1;
 }
@@ -19,9 +20,10 @@ int main() {
     cout << "현재 vector : ";
     for (int i : v) cout << i << " ";
     cout << "\n==============================\n";
-
-
+    
+    
     int num = 4;
+    //iterator, begin, end, want_valeu
     auto it = find(v.begin(), v.end(), num);
     if (it == v.end()) {
         cout << num << "은 찾을 수 없습니다.\n";
@@ -41,5 +43,8 @@ int main() {
 
     return 0;
 }
+<<<<<<< HEAD
 
 //원본: https://notepad96.tistory.com/41
+=======
+>>>>>>> 0ac5b8f869264032bf408b4852ce8cd95b4c4668
